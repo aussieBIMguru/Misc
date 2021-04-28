@@ -45,7 +45,7 @@ def tolist(input):
 
 def uwlist(input):
     result = input if isinstance(input, list) else [input]
-    return UnwrapElement(input)
+    return UnwrapElement(result)
 
 # Preparing input from dynamo to revit
 element    = IN[0]
